@@ -1,0 +1,6 @@
+@ShopAPI_3Layer_HostAddress = http://localhost:5010
+
+GET {{ShopAPI_3Layer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
