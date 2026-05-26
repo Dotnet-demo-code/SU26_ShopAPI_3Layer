@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.IServices
 {
-    public interface IProductService
+    public interface IProductService // quy dinh cac thao tac nghiep vu
     {
         Task<List<ProductDTO>> GetAllAsync();
         Task<ProductDTO> GetByIdAsync(int id);

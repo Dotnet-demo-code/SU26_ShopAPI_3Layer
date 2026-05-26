@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.IRepository
 {
-    public interface IProductRepository
+    public interface IProductRepository // quy dinh cac thao tac tren DB
     {
         public Task<List<Product>> GetAllAsync();
         public Task<Product> GetByIdAsync(int id);
